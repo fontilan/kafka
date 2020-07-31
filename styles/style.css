@@ -68,7 +68,7 @@ h3 {
     max-width: 1000px;
     line-height: 2;
     margin: auto;
-    padding-bottom: 50px;
+    padding: 0 10px 50px 10px;
 }
 
 .container {
