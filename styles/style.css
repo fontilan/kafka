@@ -30,7 +30,7 @@ body {  /*  całość strony  */
 }
 
 h1 {  /*  tytuł główny  */
-    font-family: "Abril Fatface", sans-serif;
+    font-family: "Abril Fatface", cursive;
     margin-top: 0px;
     padding-top: 200px;
     margin-bottom: 10px;
@@ -48,7 +48,7 @@ header p {  /*  podtytuł"  */
 }
 
 h2 {  /*  tytuły sekcji  */
-    font-family: "Abril Fatface", sans-serif;
+    font-family: "Abril Fatface", cursive;
     font-size: 3em;
     font-weight: 100;
     color: #43AA8B;
