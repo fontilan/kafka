@@ -1,15 +1,16 @@
-* {  /* zresetowanie wartości domyślnych */
+* {  /*  zresetowanie wartości domyślnych  */
     margin: 0;
     padding: 0;
   }
 
-body {
+body {  /*  całość strony  */
     font-family: "Raleway", sans-serif;
-    background-color: #202020;
+    background-color: #202020; /* fallback */
+    background-image: linear-gradient(45deg, #202020, #101010);
     color: white;
 }
 
-.nav-cont {
+.nav-cont {  /*  kontener zawierający pasek nawigacyjny */
     display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -17,7 +18,7 @@ body {
     justify-content: end;
 }
 
-.nav-cont a {
+.nav-cont a {  /*  elementy paska nawigacyjnego (tekst) */
     font-family: "Raleway", sans-serif;
     font-size: 1.5em;
     font-weight: 800;
@@ -25,27 +26,13 @@ body {
     padding: 15px;
     text-decoration: none;
     color: white;
+    background-color: #303030
 }
 
-.nav-item {
-    background-color: #303030;
-    color: white;
-}
-
-header p {
-    font-family: "Raleway", sans-serif;
-    font-size: 2em;
-    text-align: center;
-    padding-bottom: 100px;
-}
-/*
-header img {
-    float: right;
-}
-*/
-h1 {
+h1 {  /*  tytuł główny  */
     font-family: "Abril Fatface", sans-serif;
-    margin-top: 200px;
+    margin-top: 0px;
+    padding-top: 200px;
     margin-bottom: 10px;
     text-align: center;
     font-size: 5em;
@@ -53,7 +40,14 @@ h1 {
     color: #FCA311;
 }
 
-h2 {
+header p {  /*  podtytuł"  */
+    font-family: "Raleway", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+h2 {  /*  tytuły sekcji  */
     font-family: "Abril Fatface", sans-serif;
     font-size: 3em;
     font-weight: 100;
@@ -63,13 +57,13 @@ h2 {
     text-align: center;
 }
 
-h3 {
+h3 {  /*  podsekcje (w biografii)  */
     font-family: "Raleway", sans-serif;
     font-size: 1.5em;
     font-weight: 100;
 }
 
-.opis {
+.opis {  /*  teksty-opisy książek  */
     font-size: 1.2em;
     max-width: 1000px;
     line-height: 2;
@@ -77,7 +71,7 @@ h3 {
     padding: 0 10px 50px 10px;
 }
 
-.container {
+.container {  /*  kontener na obrazki  */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     grid-gap: 100px 20px;
@@ -86,28 +80,35 @@ h3 {
     justify-items: center;
 }
 
-hr {
+hr {  /* pozioma linia oddzielająca sekcje  */
     max-width: 1000px;
     margin: 150px auto 0;
 }
 
-img {
+img {  /* obrazki  */
     display: block;
 }
 
-footer {
+footer {  /* stopka  */
     background: #303030;
     margin-top: 100px;
     padding: 25px;
 }
 
-footer p {
+footer p {  /*  teskt w stopce  */
     line-height: 2em;
     max-width: 1000px;
     margin: auto;
 }
 
-@media (min-width: 400px) {
+footer a:link {  /*  kolor linku w stopce  */
+    color: #FCA311;
+}
+footer a:visited {  /*  kolor klikniętego linku w stopce  */
+    color: #43AA8B;
+}
+
+@media (min-width: 400px) {  /*  dla mniejszych ekranów - brak białych ramek wokół obrazków  */
     .item {
         border: 25px solid white;
     }
