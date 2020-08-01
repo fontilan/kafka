@@ -13,29 +13,30 @@ body {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 1px;
+    grid-gap: 2px;
     justify-content: end;
 }
 
 .nav-cont a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 1.5em;
     font-weight: 800;
     text-align: center;
     padding: 15px;
     text-decoration: none;
-    color: #D5CAD6;
+    color: white;
 }
 
 .nav-item {
-    background-color: #101010;
+    background-color: #303030;
     color: white;
 }
 
 header p {
+    font-family: "Raleway", sans-serif;
     font-size: 2em;
     text-align: center;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 /*
 header img {
@@ -43,28 +44,33 @@ header img {
 }
 */
 h1 {
+    font-family: "Abril Fatface", sans-serif;
     margin-top: 200px;
     margin-bottom: 10px;
     text-align: center;
     font-size: 5em;
-    font-weight: 900;
+    font-weight: 300;
     color: #FCA311;
 }
 
 h2 {
+    font-family: "Abril Fatface", sans-serif;
     font-size: 3em;
+    font-weight: 100;
     color: #43AA8B;
-    padding-top: 100px;
+    padding: 100px 0 0 0;
     margin-bottom: 20px;
     text-align: center;
 }
 
 h3 {
+    font-family: "Raleway", sans-serif;
     font-size: 1.5em;
-    color: #D5CAD6;
+    font-weight: 100;
 }
 
 .opis {
+    font-size: 1.2em;
     max-width: 1000px;
     line-height: 2;
     margin: auto;
@@ -80,8 +86,25 @@ h3 {
     justify-items: center;
 }
 
+hr {
+    max-width: 1000px;
+    margin: 150px auto 0;
+}
+
 img {
     display: block;
+}
+
+footer {
+    background: #303030;
+    margin-top: 100px;
+    padding: 25px;
+}
+
+footer p {
+    line-height: 2em;
+    max-width: 1000px;
+    margin: auto;
 }
 
 @media (min-width: 400px) {
