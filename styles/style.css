@@ -82,7 +82,9 @@ hr {    /* pozioma linia oddzielająca sekcje  */
 img {   /* obrazki */
     display: block;
 }
-
+span {
+    color: #FCA311;
+}
 footer {    /* stopka */
     background: #303030;
     margin-top: 100px;
