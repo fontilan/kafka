@@ -57,12 +57,6 @@ h2 {    /* tytuły sekcji */
     text-align: center;
 }
 
-h3 {    /* podsekcje (w biografii) */
-    font-family: "Raleway", sans-serif;
-    font-size: 1.5em;
-    font-weight: 100;
-}
-
 .opis { /* teksty-opisy książek */
     font-size: 1.2em;
     max-width: 1000px;
