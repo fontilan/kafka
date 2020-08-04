@@ -1,2 +1,9 @@
 # fontilan.github.io
-trying to build a responsive site
+
+My first attempt at building a responsive site.
+
+It is a gallery of covers of Franz Kafka's books.
+It also contains some short descriptions and bio.
+It's in Polish.
+
+Feel free to comment!
