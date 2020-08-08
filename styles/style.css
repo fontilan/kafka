@@ -1,111 +1,111 @@
-* { /* zresetowanie wartości domyślnych */
-    margin: 0;
-    padding: 0;
+* {  /* zresetowanie wartości domyślnych */
+  margin: 0;
+  padding: 0;
   }
 
-body {  /*  całość strony  */
-    font-family: "Raleway", sans-serif;
-    background-color: #202020; /* fallback */
-    background-image: linear-gradient(45deg, #202020, #101010);
-    color: white;
+body {  /* całość strony */
+  font-family: "Raleway", sans-serif;
+  background-color: #202020; /* fallback */
+  background-image: linear-gradient(45deg, #202020, #101010);
+  color: white;
 }
 
-.nav-cont { /* kontener zawierający pasek nawigacyjny */
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 2px;
-    justify-content: end;
+.nav-cont {  /* kontener zawierający pasek nawigacyjny */
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 2px;
+  justify-content: end;
 }
 
-.nav-cont a {   /* elementy paska nawigacyjnego (tekst) */
-    font-family: "Raleway", sans-serif;
-    font-size: 1.5em;
-    font-weight: 800;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    color: white;
-    background-color: #303030
+.nav-cont a {  /* elementy paska nawigacyjnego (tekst) */
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  font-weight: 800;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #303030
 }
 
-h1 {    /* tytuł główny */
-    font-family: "Abril Fatface", cursive;
-    margin-top: 0px;
-    padding-top: 200px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 5em;
-    font-weight: 300;
-    color: #FCA311;
+h1 {  /* tytuł główny */
+  font-family: "Abril Fatface", cursive;
+  margin-top: 0px;
+  padding-top: 200px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 5em;
+  font-weight: 300;
+  color: #FCA311;
 }
 
 header p {  /* podtytuł" */
-    font-family: "Raleway", sans-serif;
-    font-size: 2em;
-    text-align: center;
-    padding-bottom: 100px;
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 100px;
 }
 
-h2 {    /* tytuły sekcji */
-    font-family: "Abril Fatface", cursive;
-    font-size: 3em;
-    font-weight: 100;
-    color: #43AA8B;
-    padding: 100px 0 0 0;
-    margin-bottom: 20px;
-    text-align: center;
+h2 {  /* tytuły sekcji */
+  font-family: "Abril Fatface", cursive;
+  font-size: 3em;
+  font-weight: 100;
+  color: #43AA8B;
+  padding: 100px 0 0 0;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.opis { /* teksty-opisy książek */
-    font-size: 1.2em;
-    max-width: 1000px;
-    line-height: 2;
-    margin: auto;
-    padding: 0 10px 50px 10px;
+.opis {  /* teksty-opisy książek */
+  font-size: 1.2em;
+  max-width: 1000px;
+  line-height: 2;
+  margin: auto;
+  padding: 0 10px 50px 10px;
 }
 
-.container {    /* kontener na obrazki */
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-    grid-gap: 100px 30px;
-    width: 100%;
-    align-items: start;
-    justify-items: center;
+.container {  /* kontener na obrazki */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-gap: 100px 30px;
+  width: 100%;
+  align-items: start;
+  justify-items: center;
 }
 
-hr {    /* pozioma linia oddzielająca sekcje  */
-    max-width: 1000px;
-    margin: 150px auto 0;
+hr {  /* pozioma linia oddzielająca sekcje */
+  max-width: 1000px;
+  margin: 150px auto 0;
 }
 
-img {   /* obrazki */
-    display: block;
+img {  /* obrazki */
+  display: block;
 }
 span {
-    color: #FCA311;
+  color: #FCA311;
 }
-footer {    /* stopka */
-    background: #303030;
-    margin-top: 100px;
-    padding: 25px;
+footer {  /* stopka */
+  background: #303030;
+  margin-top: 100px;
+  padding: 25px;
 }
 
 footer p {  /* teskt w stopce */
-    line-height: 2em;
-    max-width: 1000px;
-    margin: auto;
+  line-height: 2em;
+  max-width: 1000px;
+  margin: auto;
 }
 
-footer a:link { /* kolor linku w stopce */
-    color: #FCA311;
+footer a:link {  /* kolor linku w stopce */
+  color: #FCA311;
 }
 footer a:visited {  /* kolor klikniętego linku w stopce */
-    color: #43AA8B;
+  color: #43AA8B;
 }
 
-@media (min-width: 400px) { /* dla mniejszych ekranów: brak białych ramek wokół obrazków */
-    .item {
-        border: 25px solid white;
-    }
+@media (min-width: 400px) {  /* dla mniejszych ekranów: brak białych ramek wokół obrazków */
+  .item {
+      border: 25px solid white;
+  }
 }
