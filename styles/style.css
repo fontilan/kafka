@@ -3,6 +3,10 @@
   padding: 0;
   }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {  /* całość strony */
   font-family: "Raleway", sans-serif;
   background-color: #202020; /* fallback */
