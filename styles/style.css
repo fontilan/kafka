@@ -108,6 +108,10 @@ footer a:visited {  /* kolor klikniętego linku w stopce */
   color: #43AA8B;
 }
 
+i {  /* kolor ikonki w stopce */
+  color: #FCA311;
+}
+
 @media (min-width: 400px) {  /* dla mniejszych ekranów: brak białych ramek wokół obrazków */
   .item {
       border: 25px solid white;
